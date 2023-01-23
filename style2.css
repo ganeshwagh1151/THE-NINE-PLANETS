@@ -1,0 +1,162 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Comet.jpg);
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+
+}
+.header1{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asteroid.jpg);
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+}
+
+.h3 {
+        margin: 5px 1500px 120px 5px;
+        color: moccasin;
+        border: 2px solid;
+        padding-right: 5px;
+        padding-left: 5px;
+        display: flex;
+        background-color: rgb(4, 3, 46);
+        text-shadow: 1px 1px white;
+
+}
+
+.ul {
+        list-style-type: none;
+        float: right;
+}
+
+.ul li {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 10px;
+}
+
+.ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 30px;
+        border: 1px solid transparent;
+}
+
+.ul li a:hover {
+        background-color: white;
+        color: black;
+        transition: 0.6s ease;
+}
+
+.main {
+        max-width: 1200px;
+        margin-left: 14cm;
+}
+
+.ul li.active a {
+        background-color: white;
+        color: black;
+}
+
+.title {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 1px 1px yellow;
+}
+
+.title h1 {
+        color:  rgb(246, 199, 137);
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.title p {
+        color: rgb(245, 242, 242);
+        font-size: 20px;
+        text-align: center;
+}
+
+body {
+        background-image: url(0000000000000000000000.jpg);
+}
+
+nav {
+        padding-left: 80px;
+        font-size: 22px;
+}
+
+table,
+tr,
+td {
+        border: 1px solid rgba(0, 0, 255, 0.185);
+        border-collapse: collapse;
+}
+
+a {
+        text-decoration: none;
+        color: rgb(179, 177, 243);
+        text-shadow: 1px 1px white;
+}
+
+.box1 {
+        border: 1px solid transparent;
+        height: max-content;
+        width: 38%;
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        padding: 2%;
+        background-color: white;
+}
+
+p {
+        font-size: larger;
+}
+
+.box2 {
+        border: 1px solid transparent;
+        width: 15%;
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        padding: 2%;
+        background-color: white;
+}
+
+.box3 {
+        border: 1px solid transparent;
+        width: 15%;
+        position: absolute;
+        top: 83%;
+        left: 60%;
+        padding: 2%;
+        background-color: white;
+}
+
+.box4 {
+        border: 1px solid transparent;
+        width: 15%;
+        position: absolute;
+        top: 93%;
+        left: 60%;
+        padding: 2%;
+        background-color: white;
+}
+
+.box5 {
+        border: 1px solid transparent;
+        width: 15%;
+        position: absolute;
+        top: 257%;
+        left: 60%;
+        padding: 2%;
+        background-color: white;
+}
